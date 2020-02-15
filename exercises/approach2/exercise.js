@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 
 /*
  * 1. Write a function that returns an error if called with invalid arguments
@@ -16,9 +15,8 @@
  * @returns {Number}  Combined length of a and b
  */
 const combinedLength = (a, b) => {
- // CODE HERE
+  // CODE HERE
 };
-
 
 /*
  * 2. Write a function that sums the numbers in an array and returns an error
@@ -36,10 +34,9 @@ const combinedLength = (a, b) => {
  * @param   {Array} xs list of numbers
  * @returns {Number}   sum of list
  */
-const sumArray = (xs) => {
+const sumArray = xs => {
   //CODE HERE
-
-}
+};
 
 /*
  * 3. Write a function that handles errors returned by (1) and (2)
@@ -62,10 +59,7 @@ const sumArray = (xs) => {
  * @param   {Array}  b Second array
  * @returns {String}   Message about the combined arrays
  */
-const combineAndPrint = (a, b) => {
-
-};
-
+const combineAndPrint = (a, b) => {};
 
 /*
  * **Stretch goal -- Harder -- Optional**
@@ -85,15 +79,14 @@ const combineAndPrint = (a, b) => {
  * @param  {Function} fn Function to wrap
  * @return {Function}    Wrapped function
  */
-const wrapErrorCheck = (fn) => (...args) => {
+const wrapErrorCheck = fn => (...args) => {
   return -1; // Delete this line and write your code below
-// CODE HERE
+  // CODE HERE
 };
-
 
 module.exports = {
   combinedLength,
   sumArray,
   combineAndPrint,
-  wrapErrorCheck,
+  wrapErrorCheck
 };
