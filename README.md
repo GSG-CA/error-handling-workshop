@@ -110,15 +110,15 @@ That is, the function accepts two arguments, `func`, which is a `Function`, and 
 
 We will look at three approaches in detail, each covered in their own section:
 
-### [Approach 1: Throwing and catching errors](./docs/approach2.md)
+### [Approach 1: Throwing and catching errors](./docs/approach1.md)
 
 This section covers one way of dealing with synchronous errors.
 
-### [Approach 2: Returning errors to the caller](./docs/approach3.md)
+### [Approach 2: Returning errors to the caller](./docs/approach2.md)
 
 This section covers another way of dealing with synchronous errors.
 
-### [Approach 3: Error-first callbacks](./docs/approach1.md)
+### [Approach 3: Error-first callbacks](./docs/approach3.md)
 
 This section covers the recommended way of dealing with asynchronous errors.
 
