@@ -68,4 +68,4 @@ applyAndPrintResult(n => n, 2.3);
 
 ## Trying it out
 
-If you want to try this out yourself, complete the exercise in [exercises/approach-1](../exercises/approach3). Test your solutions by running `npm run ex-1`.
+If you want to try this out yourself, complete the exercise in [exercises/approach3](../exercises/approach3). Test your solutions by running `npm run ex-1`.

@@ -98,4 +98,4 @@ While fairly drastic, throwing errors is a useful approach and is appropriate in
 
 ## Trying it out
 
-If you want to try this out yourself, complete the exercise in [exercises/approach-2](../exercises/approach1). Test your solutions by running `npm run ex-2`.
+If you want to try this out yourself, complete the exercise in [exercises/approach1](../exercises/approach1). Test your solutions by running `npm run ex-2`.
