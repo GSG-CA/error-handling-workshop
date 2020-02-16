@@ -6,9 +6,9 @@
   "scripts": {
     "opt-test": "tape optional_extra/tests/src/*.test.js | tap-spec",
     "opt-acceptance": "tape optional_extra/tests/.acceptance.test.js | tap-spec",
-    "ex-1": "tape exercises/approach-1/exercise.test.js | tap-spec",
-    "ex-2": "tape exercises/approach-2/exercise.test.js | tap-spec",
-    "ex-3": "tape exercises/approach-3/exercise.test.js | tap-spec"
+    "ex-1": "tape exercises/approach1/exercise.test.js | tap-spec",
+    "ex-2": "tape exercises/approach2/exercise.test.js | tap-spec",
+    "ex-3": "tape exercises/approach3/exercise.test.js | tap-spec"
   },
   "contributors": [
     "njsfield",
