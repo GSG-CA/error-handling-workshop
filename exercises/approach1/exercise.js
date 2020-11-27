@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 
 /*
  * 1. Write a function that throws an error if called with invalid arguments
@@ -37,7 +36,7 @@ const combinedLength = (a, b) => {
  */
 const sumArray = (xs) => {
   // CODE HERE
-}
+};
 
 /*
  * 3. Write a function that catches errors thrown by (1) and (2)
@@ -64,7 +63,6 @@ const combineAndPrint = (a, b) => {
   // CODE HERE
 };
 
-
 /*
  * **Stretch goal -- Harder -- Optional**
  *
@@ -84,10 +82,9 @@ const combineAndPrint = (a, b) => {
  * @return {Function}    Wrapped function
  */
 const wrapTryCatch = (fn) => (...args) => {
-  throw new Error('Delete this line and write your code below');
+  throw new Error("Delete this line and write your code below");
   // CODE HERE
 };
-
 
 module.exports = {
   combinedLength,

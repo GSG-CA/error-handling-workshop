@@ -34,7 +34,7 @@ const combinedLength = (a, b) => {
  * @param   {Array} xs list of numbers
  * @returns {Number}   sum of list
  */
-const sumArray = xs => {
+const sumArray = (xs) => {
   //CODE HERE
 };
 
@@ -79,7 +79,7 @@ const combineAndPrint = (a, b) => {};
  * @param  {Function} fn Function to wrap
  * @return {Function}    Wrapped function
  */
-const wrapErrorCheck = fn => (...args) => {
+const wrapErrorCheck = (fn) => (...args) => {
   return -1; // Delete this line and write your code below
   // CODE HERE
 };
@@ -88,5 +88,5 @@ module.exports = {
   combinedLength,
   sumArray,
   combineAndPrint,
-  wrapErrorCheck
+  wrapErrorCheck,
 };
