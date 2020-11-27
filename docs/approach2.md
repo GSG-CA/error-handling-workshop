@@ -51,7 +51,7 @@ applyAndPrintResult({}, 2);
 // Sorry, result could not be calculated:
 // Invalid argument: First argument is not a function
 
-applyAndPrintResult(n => n, 2.3);
+applyAndPrintResult((n) => n, 2.3);
 // Sorry, result could not be calculated:
 // Invalid argument: Second argument 2.3 is not an integer
 ```
@@ -67,4 +67,4 @@ applyAndPrintResult(n => n, 2.3);
 
 ## Trying it out
 
-If you want to try this out yourself, complete the exercise in [exercises/approach2](../exercises/approach2). Test your solutions by running `npm run ex-3`.
+If you want to try this out yourself, complete the exercise in [exercises/approach2](../exercises/approach2). Test your solutions by running `npm run ex-2`.
