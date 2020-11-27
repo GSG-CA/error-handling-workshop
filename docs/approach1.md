@@ -28,23 +28,23 @@ const applyToInteger = (func, integer) => {
 Using this function in the REPL:
 
 ```js
-applyAndPrintResult(function double(n) {
+applyToInteger(function double(n) {
   return 2 * n;
 }, 2);
 // Result successfully calculated:
 // Applying double to 2 gives 4
 
-applyAndPrintResult(function increment(n) {
+applyToInteger(function increment(n) {
   return n + 1;
 }, -4);
 // Result successfully calculated:
 // Applying increment to -4 gives -3
 
-applyAndPrintResult({}, 2);
+applyToInteger({}, 2);
 // Sorry, result could not be calculated:
 // Invalid argument: First argument is not a function
 
-applyAndPrintResult((n) => n, 2.3);
+applyToInteger((n) => n, 2.3);
 // Sorry, result could not be calculated:
 // Invalid argument: Second argument 2.3 is not an integer
 ```
